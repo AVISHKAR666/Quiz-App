@@ -16,5 +16,10 @@ Quizline is an interactive quiz application designed for students and profession
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/YourRepositoryName.git
+   git clone https://github.com/AVISHKAR666/Quiz-App.git
+
+2. Run the Application:
+
+   Simply open the index.html file in your preferred web browser and go live.
+
 # Quiz-App
