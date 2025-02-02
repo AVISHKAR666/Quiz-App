@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Start Screen with animated title and hover effect on button -->
+  <div id="start-screen">
+    <div class="logo-name">
+        <img id="logo" src="./logo/quizline logo.png" alt="quizline-logo-img">
+        <h2 id="quizline">Quizline</h2>
+    </div>
+    
+    <h1 class="animated-title">Welcome to the Quizline</h1>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <!-- Countdown Overlay (hidden initially) -->
+  <div id="countdown-overlay" style="display: none;"></div>
+
+  <!-- Quiz Screen -->
+  <div id="quiz-screen" style="display: none;">
+    <div id="question-text"></div>
+    <div id="options-container"></div>
+    <div id="navigation-buttons">
+      <button id="prev-btn" style="display: none;">Previous</button>
+      <button id="next-btn" style="display: none;">Next</button>
+      <button id="submit-btn" style="display: none;">Submit</button>
+    </div>
+    <p id="timer"></p>
+  </div>
+
+  <!-- Result Screen -->
+  <div id="result-screen" style="display: none;">
+    <h2>Quiz Results</h2>
+    <!-- Metrics row: Accuracy, Speed, Total Score -->
+    <div id="metrics"></div>
+    <!-- Details row: Questions, Correct, Incorrect -->
+    <div id="details"></div>
+    <button id="restart-btn">Restart Quiz</button>
+    <footer>© Quizline. All rights reserved!</footer>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
