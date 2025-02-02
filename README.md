@@ -22,4 +22,4 @@ Quizline is an interactive quiz application designed for students and profession
 
    Simply open the index.html file in your preferred web browser and go live.
 
-# Quiz-App
+# Quiz App--  https://avishkar666.github.io/Quiz-App/
